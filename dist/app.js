@@ -100,30 +100,50 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_mithril___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_mithril__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_tachyons_css_tachyons_css__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_tachyons_css_tachyons_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__node_modules_tachyons_css_tachyons_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_profile__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_profile___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__model_profile__);
 
 
 
+
+const stylesheet = () => (
+    {
+        'container': '.mw7 center times',
+        'mainTitle': 'h2.times fw1 ph3 ph0-l',
+        'profileCard': '.pv4 bt bb b--black-10',
+        'profileCardBody': '.flex flex-column flex-row-ns',
+        'profilePhoto': '.pr3-ns mb4 mb0-ns w-100 w-40-ns dim grow pointer',
+        'avatar': 'img.db br-100',
+        'summary': '.w-100 w-60-ns tc pl3-ns pt2 ba b--silver br4',
+        'fullName': 'h1.f3 mb1 avenir mt0 lh-title',
+        'subTitle1': 'h2.f5 fw4 dark-gray times mt0',
+        'subTitle2': 'h3.f6 fw5 gray times nt2',
+        'summaryText': 'p.f6 tj f5-l pa1 lh-copy measure-wide',
+        'readMoreLink': 'a.f6 tc fw6 db dark-gray underline dim pointer'
+    }
+) 
+const styles = stylesheet()
 const App = {
     view: function() {
         return __WEBPACK_IMPORTED_MODULE_0_mithril___default()(ProfileCard)
     }
 }
-const ProfilePhoto = __WEBPACK_IMPORTED_MODULE_0_mithril___default()('.profile-photo pr3-ns mb4 mb0-ns w-100 w-40-ns dim grow pointer', 
-    __WEBPACK_IMPORTED_MODULE_0_mithril___default()('img.db br-100', {src: "./images/pp.jpeg"})
+const ProfilePhoto = __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.profilePhoto, 
+    __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.avatar, {src: "./images/pp.jpeg"})
 )
-const ProfileSummary =  __WEBPACK_IMPORTED_MODULE_0_mithril___default()('.w-100 w-60-ns tc pl3-ns pt2 ba b--silver br4', [
-    __WEBPACK_IMPORTED_MODULE_0_mithril___default()('h1.f3 mb1 avenir mt0 lh-title', 'Erdiansyah (erdi)'),
-    __WEBPACK_IMPORTED_MODULE_0_mithril___default()('h2.f5 fw4 dark-gray times mt0', 'Fullstack Software Engineer'),
-    __WEBPACK_IMPORTED_MODULE_0_mithril___default()('h3.f6 fw5 gray times nt2', 'Now @Refactory @KellerWilliam. Previously @Monommania @Digivisi'),
-    __WEBPACK_IMPORTED_MODULE_0_mithril___default()('p.f6 tj f5-l pa1 lh-copy measure-wide', 'Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt.'),
-    __WEBPACK_IMPORTED_MODULE_0_mithril___default()('a.f6 tc fw6 db dark-gray underline dim pointer', 'read more')
+const ProfileSummary =  __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.summary, [
+    __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.fullName, __WEBPACK_IMPORTED_MODULE_2__model_profile___default.a.fullName),
+    __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.subTitle1, __WEBPACK_IMPORTED_MODULE_2__model_profile___default.a.subtTitle1),
+    __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.subTitle2, __WEBPACK_IMPORTED_MODULE_2__model_profile___default.a.subtTitle2),
+    __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.summaryText, __WEBPACK_IMPORTED_MODULE_2__model_profile___default.a.summaryText),
+    __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.readMoreLink, 'read more')
 ])
 const ProfileCard = {
     view: function() {
-        return __WEBPACK_IMPORTED_MODULE_0_mithril___default()('.container mw7 center times', [
-            __WEBPACK_IMPORTED_MODULE_0_mithril___default()('h2.main-title times fw1 ph3 ph0-l', 'About me.'),
-            __WEBPACK_IMPORTED_MODULE_0_mithril___default()('.profile-card pv4 bt bb b--black-10', [
-                __WEBPACK_IMPORTED_MODULE_0_mithril___default()('.profile-card-body flex flex-column flex-row-ns', [
+        return __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.container, [
+            __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.mainTitle, 'About me..'),
+            __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.profileCard, [
+                __WEBPACK_IMPORTED_MODULE_0_mithril___default()(styles.profileCardBody, [
                     ProfilePhoto,
                     ProfileSummary
                 ])
@@ -132,8 +152,14 @@ const ProfileCard = {
     }
 }
 
+
+
+
 var body = document.body
 __WEBPACK_IMPORTED_MODULE_0_mithril___default.a.mount(body, App)
+console.log('%c I know, you want to inspect what inside', 'font-size: 250%; background: #222; color: white')
+console.log('%c Just go on, there is no mistery here.', 'font-size: 200%; background: red; color: white')
+
 
 /***/ }),
 /* 2 */
@@ -2419,6 +2445,17 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = {
+    fullName: "Erdiansyah (erdi)",
+    subtTitle1: "Fullstack Software Engineer",
+    subtTitle2: "Now @Refactory @KellerWilliam. Previously @Monommania @Digivisi",
+    summaryText: "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+}
 
 /***/ })
 /******/ ]);
