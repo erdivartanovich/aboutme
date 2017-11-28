@@ -1,7 +1,7 @@
 # Mithril Personal Home Page
 An SPA (single page application) build with [mithril.js](https://mithril.js.org)
 
-see the live demo [here]("https://erdivartanovich.githu****b.io/aboutme/")
+see the live demo [here](https://erdivartanovich.github.io/aboutme)
 
 ## Purpose: 
 - Boiler plate for new mithril.js app
