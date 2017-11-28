@@ -61,6 +61,7 @@ const twitterLink = m(styles.buttonLink,
 )
 
 const publicationLink = m(styles.buttonLink,
+    {href: "/publication", oncreate: m.route.link},
     m('span', [
         m('i.fa fa-file-text-o', {'aria-hidden': true}),
         ' publications'
@@ -68,6 +69,7 @@ const publicationLink = m(styles.buttonLink,
 )
 
 const blogLink = m(styles.buttonLink,
+    {href: "/blog", oncreate: m.route.link},
     m('span', [
         m('i.fa fa-rss', {'aria-hidden': true}),
         ' blog'
