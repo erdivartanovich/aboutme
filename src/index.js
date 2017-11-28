@@ -3,9 +3,6 @@ import m from 'mithril'
 import Home from './page/home'
 import CV from './page/cv'
 
-import '../node_modules/tachyons/css/tachyons.css'
-import '../node_modules/font-awesome/css/font-awesome.css'
-
 // mount our app component to the DOM
 var body = document.body
 m.route(body, '/', {

@@ -2,6 +2,8 @@ import m from 'mithril'
 import profile from '../model/profile'
 import styleSheet from '../stylesheet'
 
+import '../../node_modules/tachyons/css/tachyons.css'
+import '../../node_modules/font-awesome/css/font-awesome.css'
 import myphoto from '../static/images/pp.jpeg'
 
 const styles = styleSheet()
