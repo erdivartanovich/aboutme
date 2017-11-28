@@ -112,12 +112,23 @@ const LinksCard = {
     }
 }
 
+const footerText = m('.mt4 tc', [ 
+    m('p.f6 black-90 lh-copy', [
+        m('span', 'source code of this web is available '),
+        m('span', m('a', 
+            {href: "https://github.com/erdivartanovich/aboutme"},
+            'here'
+        ))
+    ]),
+])
+
 const Home = {
     view: function() {
         return m('div', [
             m(ProfileCard),
             m(LinksCard),
-            state.displayEmail ? emailPanel : null
+            state.displayEmail ? emailPanel : null,
+            footerText
         ])
     }
 }
