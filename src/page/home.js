@@ -76,6 +76,14 @@ const blogLink = m(styles.buttonLink,
     ])
 )
 
+const emailMe = m(styles.buttonLink,
+    {href: "mailto:erdivartanovich@gmail.com"},
+    m('span', [
+        m('i.fa fa-envelope', {'aria-hidden': true}),
+        ' email me!'
+    ])
+)
+
 const LinksCard = {
     view: function() {
         return m(styles.linksContainer, [
@@ -84,6 +92,7 @@ const LinksCard = {
             twitterLink,
             blogLink,
             publicationLink,
+            emailMe
         ])
     }
 }
