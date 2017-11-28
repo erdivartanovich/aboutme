@@ -1,12 +1,17 @@
 import m from 'mithril'
 import profile from '../model/profile'
 import styleSheet from '../stylesheet'
+import helper from '../helper/helper'
 
 import '../../node_modules/tachyons/css/tachyons.css'
 import '../../node_modules/font-awesome/css/font-awesome.css'
 import myphoto from '../static/images/pp.jpeg'
 
 const styles = styleSheet()
+
+const state = {
+    displayEmail: false
+}
 
 const ProfilePhoto = m(styles.profilePhoto, 
     m(styles.avatar, {src: myphoto})
@@ -77,12 +82,22 @@ const blogLink = m(styles.buttonLink,
 )
 
 const emailMe = m(styles.buttonLink,
-    {href: "mailto:erdivartanovich@gmail.com"},
+    {onclick: () => {
+        state.displayEmail = !state.displayEmail
+    }},
     m('span', [
         m('i.fa fa-envelope', {'aria-hidden': true}),
         ' email me!'
     ])
 )
+
+const emailPanel = m('.mw6 f6 center tc pa2', [
+    m('label.bg-gold black-90 mt1 pa1 ph2 br2 mr1', "erdivartanovich@gmail.com"),
+    m('a.bg-black gold hover-white nl2 pa1 br2 no-underline br--right pointer', 
+        {href: "mailto: erdivartanovich@gmail.com"},
+        'open email client'
+    ),
+])
 
 const LinksCard = {
     view: function() {
@@ -101,7 +116,8 @@ const Home = {
     view: function() {
         return m('div', [
             m(ProfileCard),
-            m(LinksCard)
+            m(LinksCard),
+            state.displayEmail ? emailPanel : null
         ])
     }
 }

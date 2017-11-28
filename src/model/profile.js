@@ -1,11 +1,4 @@
-function truncate( n, text, useWordBoundary ){
-    console.log(text)
-    if (text.length <= n) { return this; }
-    var subString = text.substr(0, n-1);
-    return (useWordBoundary 
-       ? subString.substr(0, subString.lastIndexOf(' ')) 
-       : subString) + "&hellip;";
- }
+import helper from '../helper/helper'
 
 var profile = {
     fullName: "Erdiansyah",
@@ -73,6 +66,6 @@ var profile = {
         ]
     },
 }
-profile.summaryText = truncate(475, profile.data.text, true)
+profile.summaryText = helper.truncateText(475, profile.data.text, true)
 
 export default profile
