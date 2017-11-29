@@ -1,11 +1,11 @@
 
 module.exports = () => (
     {
-        'container': '.mw7 center times',
+        'container': '.mw7 center times ph4',
         'mainTitle': 'h2.mw4 tc times bg-gold i fw1 ph1 ph0-l br3 dim pointer',
         'profileCard': '.pv4 bt bb b--black-50',
         'profileCardBody': '.flex flex-column flex-row-ns',
-        'profilePhoto': '.pr3-ns mb4 mb0-ns w-100 w-40-ns dim grow pointer',
+        'profilePhoto': '.pr3-ns mb4 mb0-ns w-75 center w-50-ns dim grow pointer',
         'avatar': 'img.db br-100',
         'summary': '.w-100 w-60-ns tc pl3-ns pt0 ba b--gold br4',
         'fullName': 'h1.f3 mb1 avenir mt0 lh-title',
