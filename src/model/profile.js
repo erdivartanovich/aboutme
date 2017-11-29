@@ -1,4 +1,4 @@
-import helper from '../helper/helper'
+import helper from '../lib/helper'
 
 var profile = {
     fullName: "Erdiansyah",
