@@ -63,7 +63,7 @@ const ProfessionalExperiences = {
 const TechnicalExpertises = {
     view: function() {
         return div('.mt4', 
-            h4('.f4 pv1 bb bw2 b--black-70', 'Technical Expertises'),
+            h4('.f4 pv1 bb bw2 b--black-70', 'Technical Expertise'),
             profile.data.skillsets.map(function(skills) {
                 return div('.mb4', 
                         m('.bl b--silver pl3', [

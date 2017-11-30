@@ -5,7 +5,7 @@ var profile = {
     phone: '+685396888896',
     email: 'erdivartanovich@gmail.com',
     address: {
-        line1: "Beverly dago apartemen, No. W-215. ",
+        line1: "Beverly dago apartmen, No. W-215. ",
         line2: "Dago Coblong, Bandung, Indonesia. ",
     },
     subtTitle1: "Fullstack Software Engineer",
@@ -17,11 +17,11 @@ var profile = {
             an accomplished Software Engineer specializing in Object-Oriented Design and Development,
             with an extensive experience over 9+ years in the full life cycle of the software development process,
             including requirements definition, prototyping, proof of concept, well-documented design, interface implementation, testing, and maintenance.
-            I love to embrace new knowlege, from team work, by learning by doing and understand the fundamental concept before read through technical documentations. 
+            I love to embrace new knowledge, from teamwork, learning by doing and understand the fundamental concept before reading through technical documentation. 
             My passion is to help anyone to design and build a new software/ system from the ground up, 
-            as well as bring innovative enhancements for an existing one. Mostly, i work in Backend side, but i am good at Frontend Development too. 
+            as well as bring innovative enhancements to an existing one. Mostly, I work in Backend side, but I am good at Frontend Development too. 
             I would glad to discuss the requirements before getting the job done, so we both know each other what we need to achieve together,
-            or maybe i can provide you with useful advices. So you have an idea or need solution? let's get the job done!
+            or maybe i can provide you with useful advices. So you have an idea or need a solution? let's get the job done!
             `,
         experiences: [
             {
@@ -31,7 +31,7 @@ var profile = {
                 projects: [
                     {
                         title: 'SISKEU',
-                        description: 'e-Government Finance and Budgeting System, my job is to design the database model, write server side business logic, and build the desktop application interface.',
+                        description: 'e-Government Finance and Budgeting System, my job is to design the database model, write server-side business logic, and build the desktop application interface.',
                         highlights: 'RDBMS, Data Warehouse, Database Replication, Business intelligence',
                         stacks: 'PostgreSQL, Delphi, SAP Crystal Report'
                     }
@@ -44,9 +44,9 @@ var profile = {
                 jobTitle: 'CTO',
                 projects: [
                     {
-                        title: 'SISKEU',
-                        description: 'e-Government Finance and Budgeting System, my job is to design the database model, write server side business logic, and build the desktop application interface.',
-                        highlights: 'RDBMS, Data Warehouse, Database Replication, Business intelligence',
+                        title: 'SIKD',
+                        description: 'e-Government Finance and Budgeting System, my job is to design the database model, write server-side business logic, and build the desktop application interface.',
+                        highlights: 'RDBMS, Data Warehouse, Database Replication, Business Intelligence',
                         stacks: 'PostgreSQL, Delphi, SAP Crystal Report'
                     }
                 ],
@@ -60,7 +60,7 @@ var profile = {
                 projects: [
                     {
                         title: 'Refactory Online Learning Platform',
-                        description: 'Develop web application for the learning platform of Refactory',
+                        description: 'Develop web application for the learning platform of Refactory.',
                         highlights: 'Curriculum and project assignment management with Kanban interface, Slack Bot Integration, Web Crawler.',
                         stacks: 'PHP (Laravel), HTML5, Bootstrap CSS3, JQuery'
                     },
@@ -81,32 +81,32 @@ var profile = {
                 projects: [
                     {
                         title: 'KW Gluu',
-                        description: 'KW Gluu is an Identity Provider and Access Management Microservices to manage authentication and athorization of all kw agents through Single Sign On (SSO) interface. My job is to help configuration of Gluu server and write the mobile app SDK for the SSO functionality.',
+                        description: 'KW Gluu is an Identity Provider and Access Management Microservices to manage authentication and authorization of all kw agents through Single Sign-On (SSO) interface. My job is to help configuration of Gluu server and write the mobile app SDK for the SSO functionality.',
                         highlights: 'Gluu, IDP, OpenID, OAuth, JWT',
                         stacks: 'Javascript(React Native), Java'
                     },
                     {
                         title: 'KW Workflow Microservices',
                         description: 'KW Workflow is a cron job microservices to automatically execute all jobs that can be handled by machine/ server. My job is to write the CRUD functionality parts and unit testing.',
-                        highlights: 'Concurrent/ Asynchoronous programming, Test Driven Development',
+                        highlights: 'Concurrent/ Asynchronous programming, Test Driven Development',
                         stacks: 'NodeJS, then rewritten in Golang'
                     },
                     {
                         title: 'KW Kelle',
-                        description: 'KW-Kelle is a chat-based mobile app to provide assists and services for all of the KW agents to manage their daily works. My job is to develop Backend/Api services leveraging Natural Language Understanding (NLP) and Natural Language Processing (NLP) System. I also involve in initialization of the Mobile App development.',
+                        description: 'KW-Kelle is a chat-based mobile app to provide assists and services for all of the KW agents to manage their daily works. My job is to develop Backend/API services leveraging Natural Language Understanding (NLP) and Natural Language Processing (NLP) System. I also involve in the initialization of the Mobile App development.',
                         highlights: 'RestfulAPI, NLU/ NLP, Meta-Programming, Domain Driven Design, Microservices Architecture',
                         stacks: 'Python, PHP, React-Native, Api.ai/ Dialogflow'
                     },
                     {
-                        title: 'KW Mailchimp Microservices',
-                        description: 'KW Mailchimp is a microservices to manage all email communication within the CRM system. My job is to provide API for retrieving all possible metrics/reports from maichimp communication and campaign.',
+                        title: 'KW MailChimp Microservices',
+                        description: 'KW MailChimp is a microservices to manage all email communication within the CRM system. My job is to provide API for retrieving all possible metrics/reports from maichimp communication and campaign.',
                         highlights: 'RestfulAPI',
-                        stacks: 'PHP(Lumen), Mailchimp'
+                        stacks: 'PHP(Lumen), MailChimp'
                     },
                     {
                         title: 'KW Notification Microservices',
-                        description: 'KW Notification is a microservices to manage realtime communication/ push notification system between all subsistems of the KW-CRM (web, mobile app, and microservice).',
-                        highlights: 'Websocket, Messages Queu, Asynchronous Progrraming',
+                        description: 'KW Notification is a microservices to manage realtime communication/ push notification system between all subsystems of the KW-CRM (web, mobile app, and microservice).',
+                        highlights: 'Websocket, Messages Queue, Asynchronous Programming',
                         stacks: 'PHP(Lumen), PubNub'
                     },
                 ],
@@ -119,12 +119,14 @@ var profile = {
                 projects: [
                     {
                         title: 'Desvsummit 2017',
-                        description: `Devsummit is a one stop app based event engagement system. 
+                        description: `Devsummit is a one-stop app based event engagement system. 
                             Almost all aspect of the event management and interaction is done through the app, 
-                            such as exhibitor/booth, and attendee registration, ticket payment, on-site attendee checkin, speed-dating system etc.
+                            such as exhibitor/booth, and attendee registration, ticket payment, on-site attendee check-in, speed-dating system etc.
                             I am the core developer who build the backend system, and also the Admin Web Page.
-                            The project source can found <a href="https://github.com/devsummit/backend"> here </a>, 
-                            and this is <a href="https://api.devsummit.io/"> the admin web app </a>    
+                            <br> The project source can found <a href="https://github.com/devsummit/backend"> here </a> 
+                            <br> This is <a href="https://api.devsummit.io/"> the admin web app. </a>    
+                            <br> The mobile app can downloaded <a href="https://play.google.com/store/apps/details?id=io.devsummit.app.android"> here </a>, it also available in IOS.    
+
                             `,
                         highlights: 'OAuth, Payment Verification, Beacon',
                         stacks: 'Python (Flask), HTML5, Javascript (jQuery)'
