@@ -1,12 +1,18 @@
 import m from 'mithril'
+import GenerateDOMComponents from './lib/MElement'
 
 import Home from './page/home'
 import CV from './page/cv'
 import Blog from './page/blog'
 import Publication from './page/publication'
 
+window.m = m
+
+// generate html component
+GenerateDOMComponents()
 // mount our app component to the DOM
 var body = document.body
+
 m.route(body, '/', {
     '/': Home,
     '/cv': CV,

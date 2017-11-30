@@ -1,7 +1,7 @@
 import m from 'mithril'
 import profile from '../model/profile'
 import styleSheet from '../stylesheet'
-import helper from '../helper/helper'
+import helper from '../lib/helper'
 
 import '../../node_modules/tachyons/css/tachyons.css'
 import '../../node_modules/font-awesome/css/font-awesome.css'
