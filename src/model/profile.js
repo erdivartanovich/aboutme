@@ -114,7 +114,7 @@ var profile = {
             },
             {
                 company: 'Indonesia Developer Summit',
-                companyWeb: 'Devsummit.io',
+                companyWeb: 'http://Devsummit.io',
                 jobTitle: 'Engineer/ Technical Committee',
                 projects: [
                     {
