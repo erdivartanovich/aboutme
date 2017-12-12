@@ -45,8 +45,8 @@ var profile = {
                 projects: [
                     {
                         title: 'SIKD',
-                        description: 'e-Government Finance and Budgeting System, my job is to design the database model, write server-side business logic, and build the desktop application interface.',
-                        highlights: 'RDBMS, Data Warehouse, Database Replication, Business Intelligence',
+                        description: 'I lead a small engineer team to develop a multi platform application for e-Government Finance and Budgeting System.',
+                        highlights: 'Multiplatform, Role Base Access Control system, RDBMS, Data Warehouse, Database Replication, Business Intelligence',
                         stacks: 'PostgreSQL, Delphi, SAP Crystal Report'
                     }
                 ],
