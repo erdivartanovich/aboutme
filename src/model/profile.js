@@ -46,7 +46,7 @@ var profile = {
                     {
                         title: 'SIKD',
                         description: 'I lead a small engineer team to develop a multi platform application for e-Government Finance and Budgeting System.',
-                        highlights: 'Multiplatform, Role Base Access Control system, RDBMS, Data Warehouse, Database Replication, Business Intelligence',
+                        highlights: 'Multiplatform, Role Based Access Control system, RDBMS, Data Warehouse, Database Replication, Business Intelligence',
                         stacks: 'PostgreSQL, Delphi, SAP Crystal Report'
                     }
                 ],
