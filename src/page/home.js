@@ -42,7 +42,7 @@ const ProfileCard = {
 }
 
 const githubLink = m(styles.buttonLink,
-    {href: "https://github.com/erdivartanovich", target: 'blank'},
+    {href: "https://github-profile-summary.com/user/erdivartanovich", target: 'blank'},
     m('span', [
         m('i.fa fa-github', {'aria-hidden': true}),
         ''
