@@ -12,16 +12,12 @@ var profile = {
     subtTitle2: "Now @Refactory @KellerWilliam. Previously @Monommania @MITConsulting",
     data: {
         text: `
-            Hello there, 
-            I am Erdi,
-            an accomplished Software Engineer specializing in Object-Oriented Design and Development,
+            An accomplished Software Engineer specializing in Object-Oriented Design and Development,
             with an extensive experience over 9+ years in the full life cycle of the software development process,
-            including requirements definition, prototyping, proof of concept, well-documented design, interface implementation, testing, and maintenance.
-            I love to embrace new knowledge, from teamwork, learning by doing and understand the fundamental concept before reading through technical documentation. 
+            including requirements definition, prototyping, proof of concept, well-documented design, interface implementation, testing, delivery, and maintenance.
+            I love to embrace new knowledge, from teamwork, learning by doing and understand the fundamental concept along with reading through technical documentation. 
             My passion is to help anyone to design and build a new software/ system from the ground up, 
-            as well as bring innovative enhancements to an existing one. Mostly, I work in Backend side, but I am good at Frontend Development too. 
-            I would glad to discuss the requirements before getting the job done, so we both know each other what we need to achieve together,
-            or maybe i can provide you with useful advices. So you have an idea or need a solution? let's get the job done!
+            as well as bring innovative enhancements to an existing one.
             `,
         experiences: [
             {
