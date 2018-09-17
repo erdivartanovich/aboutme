@@ -13,7 +13,7 @@ var profile = {
     data: {
         text: `
             An accomplished Software Engineer specializing in Object-Oriented Design and Development,
-            with an extensive experience over 9+ years in the full life cycle of the software development process,
+            with an extensive experience over 13 years in the full life cycle of the software development process,
             including requirements definition, prototyping, proof of concept, well-documented design, interface implementation, testing, delivery, and maintenance.
             I love to embrace new knowledge, from teamwork, learning by doing and understand the fundamental concept along with reading through technical documentation. 
             My passion is to help anyone to design and build a new software/ system from the ground up, 
@@ -89,7 +89,7 @@ var profile = {
                     },
                     {
                         title: 'KW Kelle',
-                        description: 'KW-Kelle is a chat-based mobile app to provide assists and services for all of the KW agents to manage their daily works. My job is to develop Backend/API services leveraging Natural Language Understanding (NLP) and Natural Language Processing (NLP) System. I also involve in the initialization of the Mobile App development.',
+                        description: 'KW-Kelle is a chat-based mobile app to provide assists and services for all of the KW agents to manage their daily works. My job is to develop Backend/API services leveraging Natural Language Understanding (NLP) and Natural Language Processing (NLP) System. I also involve in the initialization of the Mobile App development. See more about KELLE here: <a href="https://blog.kw.com/meet-kelle">https://blog.kw.com/meet-kelle</a>',
                         highlights: 'RestfulAPI, NLU/ NLP, Meta-Programming, Domain Driven Design, Microservices Architecture',
                         stacks: 'Python, PHP, React-Native, Api.ai/ Dialogflow'
                     },
@@ -194,3 +194,11 @@ profile.summaryText = helper.truncateText(475, profile.data.text, true)
 profile.address.line3 = 'Mobile(work): ' + profile.phone + ', Email: ' + profile.email
 
 export default profile
+
+// Hi, I'm Leslie, and I'm a professional software engineer (and engineering manager) from the San Francisco Bay Area. I've had the pleasure of developing over 50 products and websites over the years, and now I focus on building great teams and training them.
+
+// Over the years I've worked with a number of languages and tech stacks. My favorites these days are Node.js (Javascript), Golang, C, and Erlang. Though I do still occasionally work in Ruby, Python, Java and PHP.
+
+// I enjoy building large distributed applications (following the Reactive Manifesto), and deploying them in the wild. I have a keen interest in building quality CI/CD pipelines, and have recently begun embracing "serverless" technologies, including AWS Lambda, Google Cloud Functions, and Ethereum Smart Contracts.
+
+// In my spare time I love to travel. I'm currently 2 countries away from filling up my first passport book with stamps. Time for a new one!
