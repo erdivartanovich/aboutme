@@ -17,7 +17,7 @@
     "font-awesome": "^4.7.0",
     "html-loader": "^0.5.1",
     "style-loader": "^0.19.0",
-    "mithril": "^1.1.5",
+    "mithril": "^1.1.7",
     "tachyons": "^4.9.0"
   },
   "devDependencies": {
