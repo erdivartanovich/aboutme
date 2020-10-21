@@ -3,13 +3,13 @@ import helper from '../lib/helper'
 var profile = {
     fullName: "Erdiansyah",
     phone: '+685396888896',
-    email: 'erdivartanovich@gmail.com',
+    email: 'erdiansyah@misteraladin.com, erdivartanovich@gmail.com',
     address: {
-        line1: "Beverly dago apartmen, No. W-215. ",
-        line2: "Dago Coblong, Bandung, Indonesia. ",
+        line1: "Jl. Muara Baru No. 3A",
+        line2: "Jakarta Utara, Jakarta, Indonesia. ",
     },
     subtTitle1: "Fullstack Software Engineer",
-    subtTitle2: "Now @Refactory @KellerWilliam. Previously @Monommania @MITConsulting",
+    subtTitle2: "Now @Misteraladin Previously @Refactory @KellerWilliam @Monommania @MITConsulting",
     data: {
         text: `
             An accomplished Software Engineer specializing in Object-Oriented Design and Development,
@@ -67,7 +67,7 @@ var profile = {
                         stacks: 'Javascript (React, ReactNative), PHP, Python, Golang'
                     }
                 ],
-                years: 'Jan 2017 - present'
+                years: 'Jan 2017 - 2018'
             },
             {
                 company: 'Keller William Realty inc, Austin Texas',
@@ -106,34 +106,36 @@ var profile = {
                         stacks: 'PHP(Lumen), PubNub'
                     },
                 ],
-                years: 'Jan 2017 - present'
+                years: 'Jan 2017 - 2019'
             },
             {
-                company: 'Indonesia Developer Summit',
-                companyWeb: 'http://Devsummit.io',
-                jobTitle: 'Engineer/ Technical Committee',
+                company: 'Misteraladin',
+                companyWeb: 'https://misteraladin.com',
+                jobTitle: 'Head Of Apps Development',
                 projects: [
                     {
-                        title: 'Desvsummit 2017',
-                        description: `Devsummit is a one-stop app based event engagement system. 
-                            Almost all aspect of the event management and interaction is done through the app, 
-                            such as exhibitor/booth, and attendee registration, ticket payment, on-site attendee check-in, speed-dating system etc.
-                            I am the core developer who build the backend system, and also the Admin Web Page.
-                            <br> The project source can found <a href="https://github.com/devsummit/backend"> here </a> 
-                            <br> This is <a href="https://api.devsummit.io/"> the admin web app. </a>    
-                            <br> The mobile app can downloaded <a href="https://play.google.com/store/apps/details?id=io.devsummit.app.android"> here </a>, it also available in IOS.    
+                        title: 'Managing Development Of All Apps in misteraladin.com',
+                        description: `My main role as Head Of Apps Development are
+                            <ul>
+                              <li>
+                                  Architecting new Products Development and Enhancements of existing
+                              </li>
+                              <li>
+                                  Lead and drive all aspect of developments in all platform
+                              </li>
+                            </ul>  
 
                             `,
-                        highlights: 'OAuth, Payment Verification, Beacon',
-                        stacks: 'Python (Flask), HTML5, Javascript (jQuery)'
+                        highlights: 'Develop and release 5 new Products in 2 years',
+                        stacks: 'NodeJs, Typescript, Golang, PHP, VueJs, AWS EC2/ECS, Google Cloud'
                     }
                 ],
-                years: 'Aug 2017 - Nop 2017'
+                years: 'September 2018 - now'
             },
         ],
         qualifications: [{
                 title: 'Backend/ Restful API Services',
-                description: 'Build web services/API using NodeJS, PHP Laravel, Python Flask, Golang, from simple monolithic MVC onto Microservices design.'
+                description: 'Build web services/API using NodeJS + Typescript, PHP Laravel, Python Flask, Golang, from simple monolithic MVC onto Microservices design.'
             },
             {
                 title: 'Web Frontend Development',
@@ -161,7 +163,7 @@ var profile = {
                     'Python',
                     'PHP',
                     'Golang',
-                    'Java',
+                    'Java/ Kotlin',
                     'Delphi',
                     'SQL, PL/PGSQL',
                 ]
@@ -179,7 +181,15 @@ var profile = {
                     'Testing: Mocha, Jest, PHPUnit, Pytest, Go Test',
                     'Others: Docker, Travis, CodePush, Fabric, FastLane'
                 ]
-            }
+            },
+            {
+              title: 'Infrastructure',
+              skills: [
+                  'CI/CD: docker, jenkins, bitbucket-pipeline, github-actions',
+                  'Google Cloud Services: Google App Engine, Firebase, Firestore, Cloud Function',
+                  'AWS Cloud Services: EC2, ECS Cluster',
+              ]
+          }
         ],
         educations: [{
             campus: 'Hasanuddin University, Indonesia',
@@ -194,11 +204,3 @@ profile.summaryText = helper.truncateText(475, profile.data.text, true)
 profile.address.line3 = 'Mobile(work): ' + profile.phone + ', Email: ' + profile.email
 
 export default profile
-
-// Hi, I'm Leslie, and I'm a professional software engineer (and engineering manager) from the San Francisco Bay Area. I've had the pleasure of developing over 50 products and websites over the years, and now I focus on building great teams and training them.
-
-// Over the years I've worked with a number of languages and tech stacks. My favorites these days are Node.js (Javascript), Golang, C, and Erlang. Though I do still occasionally work in Ruby, Python, Java and PHP.
-
-// I enjoy building large distributed applications (following the Reactive Manifesto), and deploying them in the wild. I have a keen interest in building quality CI/CD pipelines, and have recently begun embracing "serverless" technologies, including AWS Lambda, Google Cloud Functions, and Ethereum Smart Contracts.
-
-// In my spare time I love to travel. I'm currently 2 countries away from filling up my first passport book with stamps. Time for a new one!
