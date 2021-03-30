@@ -8,7 +8,7 @@ var profile = {
         line1: "Jl. Muara Baru No. 3A",
         line2: "Jakarta Utara, Jakarta, Indonesia. ",
     },
-    subtTitle1: "Fullstack Software Engineer",
+    subtTitle1: "Software Engineer, Architect and Technical Lead",
     subtTitle2: "Now @Misteraladin Previously @Refactory @KellerWilliam @Monommania @MITConsulting",
     data: {
         text: `
