@@ -14,6 +14,7 @@ const Biography = {
     }
 }
 
+
 const Summary = {
     view: function() {
         return p('.black-90 mw7 center lh-copy measure-width', profile.data.text)
@@ -23,7 +24,7 @@ const ProfessionalExperiences = {
     view: function() {
         return div('.mt4', 
             h4('.f4 pv1 bb bw2 b--black-70', 'Professional Experiences'),
-            profile.data.experiences.map(function(qualif) {
+                   profile.data.experiences.reverse().map(function(qualif) {
                 return div('.company mb4', [
                     p('.f5 fw6', qualif.company),
                     p('.f6 nt3', qualif.years),

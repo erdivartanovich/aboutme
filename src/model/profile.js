@@ -111,11 +111,11 @@ var profile = {
             {
                 company: 'Misteraladin',
                 companyWeb: 'https://misteraladin.com',
-                jobTitle: 'Head Of Apps Development',
+                jobTitle: 'Head Of Software Engineering',
                 projects: [
                     {
                         title: 'Managing Development Of All Apps in misteraladin.com',
-                        description: `My main role as Head Of Apps Development are
+                        description: `My main role as Head Of Software Engineering are
                             <ul>
                               <li>
                                   Architecting new Products Development and Enhancements of existing
