@@ -9,11 +9,11 @@ var profile = {
         line2: "Jakarta Utara, Jakarta, Indonesia. ",
     },
     subtTitle1: "Software Engineer, Architect and Technical Lead",
-    subtTitle2: "Now @Misteraladin Previously @Refactory @KellerWilliam @Monommania @MITConsulting",
+    subtTitle2: "Now Head Of Engineering @Misteraladin ",
     data: {
         text: `
             An accomplished Software Engineer specializing in Object-Oriented Design and Development,
-            with an extensive experience over 13 years in the full life cycle of the software development process,
+            with an extensive experience over 15 years in the full life cycle of the software development process,
             including requirements definition, prototyping, proof of concept, well-documented design, interface implementation, testing, delivery, and maintenance.
             I love to embrace new knowledge, from teamwork, learning by doing and understand the fundamental concept along with reading through technical documentation. 
             My passion is to help anyone to design and build a new software/ system from the ground up, 
