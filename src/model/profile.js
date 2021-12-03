@@ -59,7 +59,7 @@ var profile = {
                         stacks: 'PHP (Laravel), HTML5, Bootstrap CSS3, JQuery'
                     },
                     {
-                        title: 'Bootcamp Mentoring',
+                        title: 'Intructor',
                         description: 'Mentoring Refactory junior engineer/ student in Backend and Frontend/Mobile Programming.',
                         highlights: 'Teach Software Development design and implementation utilizing industry-grade technology and methodology e.g Design Pattern, Agile/Scrum, Software Testing, Automation and Distribution',
                         stacks: 'Javascript (React, ReactNative), PHP, Python, Golang'
