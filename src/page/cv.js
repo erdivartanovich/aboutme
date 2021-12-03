@@ -22,40 +22,40 @@ const Summary = {
 }
 const ProfessionalExperiences = {
     view: function() {
-        return div('.mt4', 
+        return div('.mt4',
             h4('.f4 pv1 bb bw2 b--black-70', 'Professional Experiences'),
-                   profile.data.experiences.reverse().map(function(qualif) {
+            profile.data.experiences.reverse().map(function(qualif) {
                 return div('.company mb4', [
-                    p('.f5 fw6', qualif.company),
+                    p('.f5 fw6', '♦ ' + qualif.company),
                     p('.f6 nt3', qualif.years),
                     qualif.companyWeb ?
                         p('.lh-copy', [
                             span('.f6 fw6', 'Company Web: '),
-                            a('.f6 black-90', {href: qualif.companyWeb, target: "blank"}, qualif.companyWeb),
+                            a('.f6 black-90', { href: qualif.companyWeb, target: "blank" }, qualif.companyWeb),
                         ])
-                    :   null,
+                        : null,
                     p('.nt2 lh-copy', [
                         span('.f6 fw6', 'Job Title:   '),
                         span('.f6', qualif.jobTitle),
                     ]),
                     div('.nt2 projects', [
-                        p('.mw3 f6 fw6', 'Projects: '),
+                        p('.mw3 f6 fw6', 'Responsibilities: '),
                         qualif.projects.map(function(project) {
                             return m('.bl b--silver pl3', [
                                 p('.f6 fw6 underline', project.title),
                                 p('.f6 black-90 nt2 lh-copy', m.trust(project.description)),
                                 p('.f6 nt2 black-90 lh-copy', [
-                                    span('.black fw5', 'Highlights: '),
+                                    span('.black fw5', project.highlights ? 'Highlights: ' : ''),
                                     span('', project.highlights),
                                 ]),
                                 p('.f6 nt2 black-90 lh-copy', [
-                                    span('.black fw5', 'Stack: '),
+                                    span('.black fw5', project.stacks ? 'Stack: ' : ''),
                                     span('', project.stacks),
                                 ])
                             ])
                         })
                     ]),
-                ]) 
+                ])
             })
         )
     }
@@ -63,11 +63,11 @@ const ProfessionalExperiences = {
 
 const TechnicalExpertises = {
     view: function() {
-        return div('.mt4', 
+        return div('.mt4',
             h4('.f4 pv1 bb bw2 b--black-70', 'Technical Expertise'),
             profile.data.skillsets.map(function(skills) {
-                return div('.mb4', 
-                        m('.bl b--silver pl3', [
+                return div('.mb4',
+                    m('.bl b--silver pl3', [
                         p('.f6 fw6 nb2 underline', skills.title),
                         skills.skills.map(function(skill) {
                             return p('.f6 nb3 black-90 lh-copy', skill)
@@ -75,7 +75,7 @@ const TechnicalExpertises = {
                     ])
                 )
             })
-        )     
+        )
     }
 }
 
@@ -91,7 +91,7 @@ const CVContainer = {
                 m(ProfessionalExperiences)
             ]),
             div('.footerBar', [
-                
+
             ])
         ])
     }

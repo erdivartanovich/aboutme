@@ -5,15 +5,15 @@ var profile = {
     phone: '+685396888896',
     email: 'erdiansyah@misteraladin.com, erdivartanovich@gmail.com',
     address: {
-        line1: "Jl. Muara Baru No. 3A",
-        line2: "Jakarta Utara, Jakarta, Indonesia. ",
+        line1: "Jl. Muara Baru No. 3A ",
+        line2: "Jakarta Utara, DKI Jakarta, Indonesia. ",
     },
     subtTitle1: "Software Engineer, Architect and Technical Lead",
     subtTitle2: "Now Head Of Engineering @Misteraladin ",
     data: {
         text: `
-            An accomplished Software Engineer specializing in Object-Oriented Design and Development,
-            with an extensive experience over 15 years in the full life cycle of the software development process,
+            A Software Engineer,
+            with extensive experience over 15 years in the full life cycle of the software development process,
             including requirements definition, prototyping, proof of concept, well-documented design, interface implementation, testing, delivery, and maintenance.
             I love to embrace new knowledge, from teamwork, learning by doing and understand the fundamental concept along with reading through technical documentation. 
             My passion is to help anyone to design and build a new software/ system from the ground up, 
@@ -37,7 +37,7 @@ var profile = {
             {
                 company: 'Monommania, Makassar Indonesia',
                 companyWeb: '',
-                jobTitle: 'CTO',
+                jobTitle: 'CTO, Co-Founder',
                 projects: [
                     {
                         title: 'SIKD',
@@ -50,8 +50,6 @@ var profile = {
             },
             {
                 company: 'Refactory, Bandung Indonesia',
-                companyWeb: 'https://refactory.id',
-                description: 'Refactory is a Programmer Bootcamp, Programmer Agency.',
                 jobTitle: 'Software Engineer, Mentor',
                 projects: [
                     {
@@ -68,6 +66,18 @@ var profile = {
                     }
                 ],
                 years: 'Jan 2017 - 2018'
+            },
+            {
+                company: 'Refactory, Bandung Indonesia',
+                companyWeb: 'https://refactory.id',
+                description: 'Refactory is a Programmer Bootcamp, Programmer Agency.',
+                jobTitle: 'VP Of Admission',
+                projects: [
+                    {
+                        title: 'In charge for Talent Acquision'
+                    }
+                ],
+                years: 'Jan 2018 - September 2018'
             },
             {
                 company: 'Keller William Realty inc, Austin Texas',
@@ -106,7 +116,7 @@ var profile = {
                         stacks: 'PHP(Lumen), PubNub'
                     },
                 ],
-                years: 'Jan 2017 - 2019'
+                years: 'Mar 2017 - 2019'
             },
             {
                 company: 'Misteraladin',
@@ -114,7 +124,7 @@ var profile = {
                 jobTitle: 'Head Of Software Engineering',
                 projects: [
                     {
-                        title: 'Managing Development Of All Apps in misteraladin.com',
+                        title: 'Manage Development Of All Apps in misteraladin.com',
                         description: `My main role as Head Of Software Engineering are
                             <ul>
                               <li>
@@ -130,29 +140,40 @@ var profile = {
                         stacks: 'NodeJs, Typescript, Golang, PHP, VueJs, AWS EC2/ECS, Google Cloud'
                     }
                 ],
-                years: 'September 2018 - now'
+                years: 'September 2018 - November 2021'
+            },
+            {
+                company: 'MNC ECommerce',
+                companyWeb: 'https://mncgroup.com',
+                jobTitle: 'Principal Software Engineer',
+                projects: [
+                    {
+                        title: 'Provide best practice or expertise to support the software engineer team'
+                    }
+                ],
+                years: 'November 2021 - Now'
             },
         ],
         qualifications: [{
-                title: 'Backend/ Restful API Services',
-                description: 'Build web services/API using NodeJS + Typescript, PHP Laravel, Python Flask, Golang, from simple monolithic MVC onto Microservices design.'
-            },
-            {
-                title: 'Web Frontend Development',
-                description: 'using Javascript (VanillaJS, Jquery, React, Angular, Vue, or my personal favorite one: Mithril JS.'
-            },
-            {
-                title: 'Mobile App Development',
-                description: 'using React-native'
-            },
-            {
-                title: "Desktop Application Development",
-                description: 'using Delphi/ Lazarus Pascal'
-            },
-            {
-                title: 'General Data-driven Application',
-                description: 'build system with data centric functionality e.g designing Data Warehouse, Database Replication System, Real-time Data Communication, Data Analysis, and Business Intelligence Report.'
-            }
+            title: 'Backend/ Restful API Services',
+            description: 'Build web services/API using NodeJS + Typescript, PHP Laravel, Python Flask, Golang, from simple monolithic MVC onto Microservices design.'
+        },
+        {
+            title: 'Web Frontend Development',
+            description: 'using Javascript (VanillaJS, Jquery, React, Angular, Vue, or my personal favorite one: Mithril JS.'
+        },
+        {
+            title: 'Mobile App Development',
+            description: 'using React-native'
+        },
+        {
+            title: "Desktop Application Development",
+            description: 'using Delphi/ Lazarus Pascal'
+        },
+        {
+            title: 'General Data-driven Application',
+            description: 'build system with data centric functionality e.g designing Data Warehouse, Database Replication System, Real-time Data Communication, Data Analysis, and Business Intelligence Report.'
+        }
         ],
         skillsets: [
             {
@@ -160,10 +181,10 @@ var profile = {
                 skills: [
                     'Javascript/ Node JS',
                     'Typescript',
-                    'Python',
-                    'PHP',
                     'Golang',
+                    'PHP',
                     'Java/ Kotlin',
+                    'Python',
                     'Delphi',
                     'SQL, PL/PGSQL',
                 ]
@@ -183,18 +204,24 @@ var profile = {
                 ]
             },
             {
-              title: 'Infrastructure',
-              skills: [
-                  'CI/CD: docker, jenkins, bitbucket-pipeline, github-actions',
-                  'Google Cloud Services: Google App Engine, Firebase, Firestore, Cloud Function',
-                  'AWS Cloud Services: EC2, ECS Cluster',
-              ]
-          }
+                title: 'Infrastructure & Cloud',
+                skills: [
+                    'CI/CD: docker, jenkins, github-actions',
+                    'AWS Cloud Services: EC2, ECS Cluster, AppSync Graphql, RDS, Lambda',
+                    'Google Cloud Services: Google App Engine, Firebase, Firestore, Cloud Function',
+                ]
+            }
         ],
-        educations: [{
-            campus: 'Hasanuddin University, Indonesia',
-            program: 'Bachelor degree, Digital control and computer system'
-        }],
+        educations: [
+            {
+                campus: 'Hasanuddin University, Indonesia',
+                program: 'Course Work, Digital Control and Computer System'
+            },
+            {
+                campus: 'Universitas Muslim Indonesia',
+                program: 'Bachelor Degree, Electrical Engineer'
+            },
+        ],
         organizations: [{
 
         }]
