@@ -1,0 +1,65 @@
+#+TITLE: Interview Questions
+* General questions
+At the beginning of your interview, the interviewer is likely to get to know your personality and overall fit with company culture with questions like the following examples:
+**  Tell me about your interests in current development trends.
+**  Do you enjoy contributing to open-source projects?
+**  What do you know about our firm's technology services?
+**  How do you approach setting professional goals?
+**  How do your qualifications support your success as a senior developer?
+**  Describe your leadership skills.
+**  Describe your strengths relating to software architecture.
+**  How would you describe your ideal work environment?
+**  What steps have you taken to keep up to date on software development models?
+**  How have you overcome industry challenges in your career?
+**  What do you hope to accomplish in your senior role for our company?
+**  How will your experience help you contribute to this firm's goals?
+
+* Questions about experience and background
+** How long have you worked in a senior developer position?
+** What achievements led to your career advancement?
+** What educational background or technical certifications do you currently hold?
+** Would you consider additional training and development?
+** How have you learned from setbacks in your career?
+** How many members were on the largest development team under your management?
+** What is your approach to project management?
+** How do you ensure software projects stay within forecasted budgets?
+** If executive management wants you to choose between two technologies to complete a project, how would you decide which one to use?
+** What factors do you consider when consulting with new clients on product designs?
+** How do you help solve conflicts between team members?
+** What is a recent project you directed your team in that relied on a source control system?
+
+* In-depth questions
+The interviewer may also ask questions that focus on your specific technical abilities in a senior engineering role, such as your processes of design, implementation and software product development. The following examples include in-depth questions that interviewers may ask to assess your skills:
+
+** What is Microservices
+I am not gonna lie, I can't explain this term briefly enough to any one.
+I reckon microservices is very descriptive by the word it self.
+But practically speaking there are so many layers around it, concepts, pattern, pros, cons and whatnot.
+That's being said, the way i seet it, it's not solely a brief and clear concept. More than that.
+If there is a way of Life, this is a way of engineering, we have to strategically consider when to go for it.
+And subjectively it can be implemented in various form by reasoning not only specific case that we face, but all resources and engineering capacity that we have.
+In fact, the best way to implement microservices apart from one or two best practice, is to have a long term commitment to do reasoning, engineering, and testing phase by phase gradually, until we achieve the most stable form of it.
+** How do you develop and enforce database confidentiality policies?
+** How do you approach debugging an entire system of applications?
+** How have you implemented the Agile framework in your software design processes?
+** What kind of instrumentation do you apply to ensure high-performance architecture design?
+** When would you consider a NoSQL design over an SQL design?
+** How would you create an SQL database with sharding capabilities for geographical and time-series information?
+** What factors do you consider when designing inventory management systems?
+** How do you improve maintainability problems related to legacy code projects?
+** When do you feel it's appropriate to use service orientation change systems?
+** In which instances would you apply "set" logic?
+** How do you know when to follow "procedural" logic?
+
+* Example senior software engineer interview questions and answers
+
+** Can you explain your design process for scaling systems?
+** Based on what you know of our company, how do you plan to reach goals with your team?
+** How have you used continuous integration and delivery to achieve business goals?
+Through my research of Catch web platform, I notice that Catch has pretty neat, straightforward and user sentric streamline system design. I can sense that there has been a great engineering work on back funnel, espescially from  product discovery, add to cart, and then into the checkout funnel. I guess  Catch want to enable their user to quickly get into finalizing their shopping activity.
+- Talk about their varieties of marketing campaign
+- Talk about their Loyalty Points System
+- Predict that they will need Market Acquisiton Strategy on specific Product Range, specific Region or specific user engagement funnel
+ - Talk about Cart is the most personal thing in for the user just like time line in Social Media App.
+** How do you refactor classes for easier unit testing?
+** How do you refactor classes for parallel and concurrent processes?

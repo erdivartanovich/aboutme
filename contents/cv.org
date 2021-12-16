@@ -1,0 +1,96 @@
+#+TITLE: Curriculum Vitae
+#+AUTHOR: Erdiansyah
+
+* Profile Information
+- Full Name: Erdiansyah
+- Address: Jl. Muara Baru No. 3A Jakarta Utara, DKI Jakarta, Indonesia.
+- Contact
+  + Mobile(work): +685396888896,
+  + Personal Email: erdivartanovich@gmail.com
+- LinkedIn Profile (URL): https://www.linkedin.com/in/erdivartanovich/
+- Github Profile (URL): https://github.com/erdivartanovich
+- Current Location: Jakarta, Indonesia
+- Nationality: Indonesian
+- Current Monthly Salary: IDR 40 M (~ USD 2,790) NET
+- Current Benefits: 13th Salary, Pension Fund, Allowances (car, glasses, laptop), Health Insurance, Paid Leaves = 12
+- Notice Period: 1 Month
+* Educations
+- Bachelor Degree in Electrical Engineering at Muslim University Of Indonesia (UMI), Makassar Indonesia
+- Course Work on Computer Digital Control Engineering at Hasanuddin University, Makassar Indonesia
+* Core Strengths
+- Over 15 years experience as Software Engineer
+- Experienced with cross-functional skills like accounting and inventory systems,
+  and Software Engineering Mentorship/ Coaching)
+- Hands-on coding
+- Systems Architecture
+- Leadership (3 yrs) - currently responsible for 19 developers (before covid they were 32) of all types except DevOps
+- Specialization/ Highlight skill: Fullstack - Serverless Event-Driven CQRS System on AWS Cloud
+
+* Technical Expertise
+- Programming Language
+  + Javascript/ Node JS
+  + Typescript
+  + Golang
+  + PHP
+  + Java/ Kotlin
+  + Python
+  + Delphi
+  + SQL, PL/PGSQL
+- Pattern, Tools, Framework, and Platform
+  + Pattern/ Architectural Design: OOP, MVC, Rest, GraphQL, SOLID, DDD, Microservices
+  + Protocol: RestAPI, GraphQL, Websocket
+  + Databases: PostgreSQL, SQL Server, MySQL, SQLite, MongoDB, Firebase
+  + Backend: Express, Hapi, NestJS, Laravel, Flask
+  + Web: JQuery, Angular2+, Ionic, React, VueJS, MithrilJS
+  + Mobile: ReactNative, Java Android
+  + API Spec & Documentation: Swagger, Oracle Apiary
+  + Testing: Mocha, Jest, PHPUnit, Pytest, Go Test
+- Infrastructure & Cloud
+  + AWS Cloud Services: EC2, ECS Cluster, AppSync Graphql, RDS, Lambda
+  + Google Cloud Services: Google App Engine, Firebase, Firestore, Cloud Function
+  + CI/CD: docker, Jenkins, Github-actions
+
+* Professional Experiences
+** MNC ECommerce
+*** Company Web: https://mncgroup.com
+*** Periode: November 2021 - Now
+ - Role: Principal Software Engineer
+ - Responsibilities:
+   + Designing performant and highly scalable System Architecture for New Product
+   + Provide best practices or expertise to support the software engineer team
+
+** Misteraladin
+*** Company Web:https://misteraladin.com
+*** Periode: September 2018 - November 2021
+- Role: Head Of Software Engineering
+- Responsibilities:
+  + Manage Development of all Apps on all platforms in misteraladin.com
+  + In charge of Software Engineer Recruitment
+
+** Keller William Realty inc, Austin Texas
+*** Company Web: http://kw.com
+*** Periode: Maret 2017 - 2019
+- Role: Software Engineer/ Project Lead (Remote Work)
+- Responsibilities:
+  + Lead the development of several products i.e CRM Workflows, NLP API, PubSub, and Notification System
+
+** Refactory, Bandung Indonesia
+*** Company Web: http://refactory.id
+*** Periode: August 2017 - September 2018
+ - Role: VP Of Admission
+ - Responsibilities:
+ - Admission & Recruitment of Software Engineer Talents
+*** Periode: January 2017 - August 2017
+ - Role: Software Engineer, Mentor
+ - Responsibilities:
+   + Develop a web application for the learning platform of Refactory.
+
+** Monommania, Makassar Indonesia
+*** Periode: Jan 2008 - Feb 2013
+- Role: Co-Founder, Engineering Lead
+- Responsibilities: Led a small engineer team to develop a multi-platform application for the e-Government Finance and Budgeting System.
+
+** MIT Consulting, Makassar Indonesia
+*** Periode: early 2006 - Dec 2007
+- Role: Software Engineer
+- Responsibilities: Develop Accounting Software for the e-Government sector
